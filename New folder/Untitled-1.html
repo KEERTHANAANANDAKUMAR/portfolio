@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio</title>
+   
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <!-- Add your profile picture here -->
+            <img src="C:\Users\Sanjay v\OneDrive - Rathinam Group Of Institutions\Desktop\New folder\WhatsApp Image 2025-03-31 at 20.00.07_41e2e72f.jpg" alt="Your Profile Picture" class="profile-picture"height="100"width="100">
+            <h1>KEERTHANA A</Tarea:r></h1>
+            <p>prompt Engnineer</p>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#resume">Resume</a></li>
+           
+        </ul>
+    </nav>
+
+    <section id="about">
+        <div class="section-content">
+            <h2>About Me</h2>
+            <p>I'm a <b>web development</b> student eager to learn and grow in the ever-evolving world of technology. 
+                I enjoy building dynamic and user-friendly websites while exploring the latest trends in front-end and back-end development. 
+                My goal is to create high-performance web applications that enhance user experience and solve real-world problems. 
+                I’m dedicated to improving my skills, learning best practices, and gaining hands-on experience in web technologies.
+                 I also love collaborating with others, sharing knowledge, and continuously expanding my expertise in creating secure and scalable websites..</p>
+
+        </div>
+    </section>
+
+    <section id="education">
+        <div class="section-content">
+            <h2>Education</h2>
+            <p>Bharathiyar university- BCA</p>
+            
+            
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="section-content">
+            <h2>Skills</h2>
+            <ul>
+                
+                
+                <li>Cloud Computing</li>
+                <li>Python</li>
+                <li>Html</li>
+                <li>java</li>
+                <li>c++</li>
+                <li>Java script</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="section-content">
+            <h2>Projects</h2>
+            <ul>
+                <li><a href="#">E Cart website</a></li>
+                <li><a href="#">Cloud Security IBM</a></li>
+                <li><a href="#">IBM chatbot</a></li>
+                <li><a href="#">College Portal</a></li> 
+                <!-- Add more project links here -->
+            </ul>
+        </div>
+    </section>
+
+    <section id="resume">
+    
+        <div class="section-content">
+            <center>
+            <h2>Resume</h2>
+            <a href="C:\Users\Sanjay v\OneDrive - Rathinam Group Of Institutions\Desktop\New folder\KEERTHANA.docx" target="_blank" class="download-button">Download CV</a>
+        </center>
+        </div>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 KEERTHANA A</p>
+    </footer>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+    </script>
+</body>
+</html>
